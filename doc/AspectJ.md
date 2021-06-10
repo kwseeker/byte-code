@@ -358,7 +358,21 @@ cflow(call(void Test.main()))
 >
 > !!! 要深刻体会它们的异同，还是要反编译加强之后的类的class文件。
 
+#### 切点参数 
 
+```java
+pointcut setter(): target(Point) &&
+                     (call(void setX(int)) ||
+                      call(void setY(int)));
+//通知可以使用所有连接点处的Point实例
+pointcut setter(Point p): target(p) &&
+                            (call(void setX(int)) ||
+                             call(void setY(int)));
+//切点参数
+pointcut testEquality(Point p1, Point p2): target(p1) &&
+                                             args(p2) &&
+                                             call(boolean equals(Object));
+```
 
 
 
@@ -383,11 +397,8 @@ pointcut setter(): target(Point) &&
 ```java
 //挑选出在类MyClass中处理IOException类型异常
 pointcut ioHandler(): within(MyClass) && handler(IOException);
+
 ```
-
-
-
-### 
 
 ### 通知
 
