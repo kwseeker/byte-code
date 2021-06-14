@@ -16,7 +16,7 @@ public aspect CallRecipe {
         System.out.println("thisJoinPoint: " + JSONObject.toJSONString(thisJoinPoint));
         //thisJoinPointStaticPart是当前连接点的静态部分(如方法定义、类名、源码位置等，对应的参数、实例对象是动态部分)，等同于thisJoinPoint.getStaticPart()
         System.out.println("thisJoinPointStaticPart: " + JSONObject.toJSONString(thisJoinPointStaticPart));
-        //TODO ?
+        //?
         System.out.println("thisEnclosingJoinPointStaticPart: " + JSONObject.toJSONString(thisEnclosingJoinPointStaticPart));
         //当前连接点的方法定义
         System.out.println(thisJoinPoint.toLongString());

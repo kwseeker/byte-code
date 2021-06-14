@@ -59,4 +59,14 @@ public class AppTest {
         myClass2.setSign(1021);
         myClass2.foo(25, "Rose");
     }
+
+    @Test
+    public void test5() {
+        SubMyClass2 subMyClass2 = new SubMyClass2(102);
+        subMyClass2.setSign(1022);
+        subMyClass2.foo();
+        //MyClass2 myClass2 = new MyClass2(102);
+        //myClass2.setSign(1021);
+        //myClass2.foo();
+    }
 }
