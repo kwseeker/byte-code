@@ -32,4 +32,31 @@ public class AppTest {
         BClass bClass = new BClass();
         bClass.foo();
     }
+
+    /**
+     * 1 获取连接点传参
+     * 2 获取call target 对象
+     */
+    @Test
+    public void test3() {
+        MyClass1 myClass1 = new MyClass1(101);
+        myClass1.foo(20, "Alice");
+    }
+
+    /**
+     * 1 call... target...  与　execute... this...
+     * 　调用时每个连接点只可以唯一匹配一个target对象；执行时每个连接点只可以唯一匹配一个this对象;
+     *   call target 搭配时 target()中必须是实例，而不是类
+     *   execute this 搭配时 this()中必须是实例，而不是类
+     * 2 call() execute() 切入通知位置对比
+     *   call before -> execute before -> execute after -> call after
+     * 3 对比 this target 和　within
+     *
+     */
+    @Test
+    public void test4() {
+        MyClass2 myClass2 = new MyClass2(102);
+        myClass2.setSign(1021);
+        myClass2.foo(25, "Rose");
+    }
 }

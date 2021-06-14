@@ -317,10 +317,12 @@ call(void Point.setX(int))
 //当异常处理器执行时 TODO 异常处理器指什么？
 handler(ArrayOutOfBoundsException)
 
-//当this是SomeType类型时，即执行的代码的this对象是SomeType类型
-this(SomeType)
-//当target对象是SomeType类型时，如调用的实例方法属于SomeType
-target(SomeType)
+//this() 和　execute() 配合使用,获取方法执行时，从方法foo()内部看的this对象
+//比如 object.foo(), this(obj)就是获取的object
+this(obj)
+//target() 和　call() 配合使用, 获取当前连接点调用对象实例
+//比如 object.foo(), target(obj)就是获取的object
+target(obj)
 //当执行的代码属于MyClass时，即切点代码属于SomeType，和target是相同的只不过within是静态织入的，target是动态织入的
 within(MyClass)
 //当执行的代码属于某个方法时
@@ -344,11 +346,16 @@ cflow(call(void Test.main()))
 >
 > **this vs target vs within**:
 >
-> this指选取的连接点的调用者，即方法在哪个类中被调用，是动态织入的。如果this()中传参是父类，则会匹配所有父类和子类中此方法调用连接点。
+> 1 call... target...  与　execute... this... 
+> 　调用时每个连接点只可以唯一匹配一个target对象；执行时每个连接点只可以唯一匹配一个this对象;
+>    call target 搭配时 target()中必须是实例，而不是类
+>    execute this 搭配时 this()中必须是实例，而不是类
 >
-> target指选取的连接点的代码所有者，即方法属于哪个类，是动态织入的。如果target()中传参是父类，则会匹配所有父类和子类中此方法实现的连接点。
+> 2 call() execute() 切入通知位置对比
+>    call before -> execute before -> execute after -> call after
 >
-> within指选取的连接点的代码所有者，即方法属于哪个类，是静态织入的。
+> 3 对比 this target 和 within
+>    within指选取的连接点的代码所有者，即方法属于哪个类，是静态织入的。
 >
 > **动态织入和静态织入**：
 >
@@ -361,9 +368,10 @@ cflow(call(void Test.main()))
 #### 切点参数 
 
 ```java
+//TODO 这种好象是错误的写法
 pointcut setter(): target(Point) &&
                      (call(void setX(int)) ||
-                      call(void setY(int)));
+                      call(void setY(int)));	
 //通知可以使用所有连接点处的Point实例
 pointcut setter(Point p): target(p) &&
                             (call(void setX(int)) ||
