@@ -6,7 +6,12 @@ import java.io.IOException;
 
 public class ClassGenerator {
 
-    public static CtClass generateClass() throws CannotCompileException, NotFoundException, IOException {
+    public static byte[] generateClassBytes() throws CannotCompileException, IOException {
+        CtClass ctClass = generateClass();
+        return ctClass.toBytecode();
+    }
+
+    public static CtClass generateClass() throws CannotCompileException, IOException {
         ClassPool pool = ClassPool.getDefault();
 
         //定义类路径和名称
@@ -24,7 +29,7 @@ public class ClassGenerator {
         //输出类到文件
         String filePath = ClassGenerator.class.getResource("/").getPath();
         ctClass.writeFile(filePath);
-
+        //byte[] ctClassBytes = ctClass.toBytecode();
         return ctClass;
     }
 }
