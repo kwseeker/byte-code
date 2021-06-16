@@ -15,9 +15,7 @@ public class ClassPrinter extends ClassVisitor {
         super(Opcodes.ASM4, classVisitor);
     }
 
-    public void testAopMethod() {
-
-    }
+    //public void testAopMethod() {}
 
     //super.xxx() 这种是装饰器模式
     @Override

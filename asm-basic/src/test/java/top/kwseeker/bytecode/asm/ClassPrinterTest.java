@@ -7,11 +7,11 @@ import java.io.IOException;
 
 public class ClassPrinterTest {
 
-    @Test
-    public void testAOP() throws IOException {
-        ClassPrinter cp = new ClassPrinter();
-        cp.testAopMethod();
-    }
+    //@Test
+    //public void testAOP() throws IOException {
+    //    ClassPrinter cp = new ClassPrinter();
+    //    cp.testAopMethod();
+    //}
 
     @Test
     public void testPrintClass() throws IOException {
