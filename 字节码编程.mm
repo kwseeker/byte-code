@@ -168,7 +168,7 @@
 <node TEXT="2 &#x4f7f;&#x7528;" POSITION="right" ID="ID_775859151" CREATED="1622518719318" MODIFIED="1622518911586" STYLE="bubble">
 <edge COLOR="#0000ff"/>
 <node TEXT="2.1 &#x6846;&#x67b6;&#xff06;&#x5de5;&#x5177;" ID="ID_513928261" CREATED="1622518884006" MODIFIED="1622518912273" STYLE="bubble">
-<node TEXT="ASM" ID="ID_277895809" CREATED="1622519120019" MODIFIED="1622717033101" LINK="https://asm.ow2.io/" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="ASM" ID="ID_277895809" CREATED="1622519120019" MODIFIED="1623858872537" LINK="https://asm.ow2.io/" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -198,6 +198,23 @@
     </p>
   </body>
 </html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20559;&#21521;&#24213;&#23618;,&#24615;&#33021;&#22909; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#38656;&#35201;&#23545;&#23383;&#33410;&#30721;&#38750;&#24120;&#29087;&#32451;</font>
+    </p>
+  </body>
+</html>
+
 </richcontent>
 <node TEXT="&#x5165;&#x95e8;" ID="ID_1823207950" CREATED="1622716888782" MODIFIED="1622717031837" STYLE="bubble">
 <node TEXT="&#x4e3b;&#x8981;Class" ID="ID_1389619024" CREATED="1622717714784" MODIFIED="1622717728881" STYLE="bubble">
@@ -346,7 +363,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1622519238336" STYLE="bubble"><richcontent TYPE="DETAILS">
+<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1623860632344" STYLE="bubble"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -354,13 +371,17 @@
   </head>
   <body>
     <p>
-      <font color="#0000c0">&#22522;&#20110;ASM</font>
+      <font color="#0000c0">&#22522;&#20110;ASM,&#26131;&#29992; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#23436;&#20840;&#38544;&#34255;&#20102;&#23383;&#33410;&#30721;&#32534;&#30721;</font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="Byte Buddy" ID="ID_1416223891" CREATED="1622519133634" MODIFIED="1622519239037" STYLE="bubble"><richcontent TYPE="DETAILS">
+<node TEXT="Byte Buddy" ID="ID_1416223891" CREATED="1622519133634" MODIFIED="1623858126825" STYLE="bubble"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -368,10 +389,11 @@
   </head>
   <body>
     <p>
-      <font color="#0000c0">&#22522;&#20110;ASM</font>
+      <font color="#0000c0">&#22522;&#20110;ASM,&#26131;&#29992;</font>
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -388,14 +410,72 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x672c;&#x8d28;&#x4e0a;&#x4e5f;&#x662f;&#x901a;&#x8fc7;&#x5b57;&#x8282;&#x7801;&#x7f16;&#x7a0b;&#x6280;&#x672f;&#x5b9e;&#x73b0;&#x7684;" ID="ID_750793875" CREATED="1623677445742" MODIFIED="1623677515084"/>
+<node TEXT="&#x652f;&#x6301;&#x542f;&#x52a8;&#x65f6;&#x4ee5;&#x53ca;&#x8fd0;&#x884c;&#x65f6;&#x63d2;&#x6869;" ID="ID_1749400080" CREATED="1623855804312" MODIFIED="1623855826993"/>
+<node TEXT="&#x57fa;&#x672c;&#x539f;&#x7406;" ID="ID_571300319" CREATED="1623855221160" MODIFIED="1623856112183"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      JavaAgent &#21407;&#29702;&#19982;&#23454;&#36341;
+    </p>
+    <p>
+      <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.infoq.cn/article/fH69pYPqZPF6Cj1UJy7X">https://www.infoq.cn/article/fH69pYPqZPF6Cj1UJy7X</a> 
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;" ID="ID_1167762837" CREATED="1623677079471" MODIFIED="1623677083907">
 <node TEXT="1) &#x7f16;&#x5199; premain &#x542f;&#x52a8;&#x7c7b;, &#x7528;&#x4e8e;&#x6ce8;&#x5165;&#x4e0b;&#x9762;&#x5b9a;&#x4e49;&#x7684;&#x7c7b;&#x8f6c;&#x6362;&#x5668;" ID="ID_695928063" CREATED="1623677387841" MODIFIED="1623678459504"/>
-<node TEXT="2) &#x7f16;&#x5199;&#x7c7b;&#x8f6c;&#x6362;&#x5668;,&#x91cc;&#x9762;&#x5b9a;&#x4e49;&#x589e;&#x5f3a;&#x903b;&#x8f91;(&#x6bd4;&#x5982;&#x5728;&#x7c7b;&#x4e2d;&#x6dfb;&#x52a0;&#x76d1;&#x63a7;&#x903b;&#x8f91;)" ID="ID_608518914" CREATED="1623677398233" MODIFIED="1623678391276"/>
-<node TEXT="3) &#x7f16;&#x5199;MAINIFEST.MF" ID="ID_1088949933" CREATED="1623677581518" MODIFIED="1623677586836"/>
+<node TEXT="2) &#x7f16;&#x5199;&#x7c7b;&#x8f6c;&#x6362;&#x5668;,&#x91cc;&#x9762;&#x5b9a;&#x4e49;&#x7c7b;&#x8fc7;&#x6ee4;(&#x5bf9;&#x54ea;&#x4e9b;&#x7c7b;&#x8fdb;&#x884c;&#x4fee;&#x6539;)&#x4ee5;&#x53ca;&#x589e;&#x5f3a;&#x903b;&#x8f91;(&#x6bd4;&#x5982;&#x5728;&#x7c7b;&#x4e2d;&#x6dfb;&#x52a0;&#x76d1;&#x63a7;&#x903b;&#x8f91;)" ID="ID_608518914" CREATED="1623677398233" MODIFIED="1623856336996">
+<node TEXT=" byte[] classfileBuffer &#x5165;&#x53c2;&#x662f;&#x6e90;&#x5b57;&#x8282;&#x7801;&#x6587;&#x4ef6;,&#x5c31;&#x662f;&#x5728;&#x5b83;&#x7684;&#x57fa;&#x7840;&#x4e0a;&#x4fee;&#x6539;&#x5b57;&#x8282;&#x7801;" ID="ID_34846549" CREATED="1623856531832" MODIFIED="1623856776781"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21487;&#20197;&#38543;&#24847;&#20351;&#29992;ASM/Javaassist/ByteBuddy&#31561;&#24037;&#20855;&#20462;&#25913;&#26368;&#21518;&#20462;&#25913;&#21518;&#30340;byte&#25968;&#32452;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="3) &#x7f16;&#x5199;MAINIFEST.MF&#x4e3b;&#x8981;&#x5b9a;&#x4e49;Agent&#x5165;&#x53e3;" ID="ID_1088949933" CREATED="1623677581518" MODIFIED="1623856478614"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Manifest-Version: 1.0
+    </p>
+    <p>
+      Premain-Class: org.itstack.sqm.asm.PreMain
+    </p>
+    <p>
+      Can-Redefine-Classes: true
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="4) &#x6253;&#x5305;(jar)&#x5e76;&#x5728; jvm &#x542f;&#x52a8;&#x65f6;&#x589e;&#x52a0;-javaagent:xxx.jar" ID="ID_1924482976" CREATED="1623677611245" MODIFIED="1623677652490"/>
+</node>
+<node TEXT="&#x5e94;&#x7528;" ID="ID_1228572094" CREATED="1623857494461" MODIFIED="1623857497792">
+<node TEXT="&#x6dfb;&#x52a0;&#x6027;&#x80fd;&#x76d1;&#x63a7;, &#x67e5;&#x770b;&#x65b9;&#x6cd5;&#x5165;&#x53c2;&#x8fd4;&#x56de;&#x503c;,&#x5f02;&#x5e38;&#x4fe1;&#x606f;,&#x8f93;&#x51fa;&#x65e5;&#x5fd7;" ID="ID_359546550" CREATED="1623857499810" MODIFIED="1623857907164"/>
+<node TEXT="&#x91cd;&#x65b0;&#x52a0;&#x8f7d;&#x7c7b;,&#x66ff;&#x6362;&#x65b9;&#x6cd5;" ID="ID_1862843451" CREATED="1623857518659" MODIFIED="1623857880063"/>
 </node>
 <node TEXT="&#x6587;&#x6863;" ID="ID_814189471" CREATED="1623678480495" MODIFIED="1623678483844">
 <node TEXT="&#x5b98;&#x65b9;&#x6587;&#x6863;" ID="ID_90847332" CREATED="1623678147962" MODIFIED="1623678158407" LINK="https://docs.oracle.com/javase/7/docs/api/java/lang/instrument/package-summary.html"/>
@@ -414,7 +494,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -566,7 +645,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6355;&#x83b7;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x7684;&#x8bbf;&#x95ee;" ID="ID_1861251294" CREATED="1623583574968" MODIFIED="1623583601712"/>
 </node>
@@ -585,7 +663,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_836375283" CREATED="1623642807032" MODIFIED="1623643356982"><richcontent TYPE="NODE">
 
@@ -599,7 +676,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -622,7 +698,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6355;&#x83b7;&#x7279;&#x5b9a;&#x5305;&#x4e2d;&#x6240;&#x6709;&#x8fde;&#x63a5;&#x70b9;" ID="ID_1319133911" CREATED="1623642831895" MODIFIED="1623643148039"/>
@@ -643,7 +718,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6355;&#x83b7;&#x901a;&#x8fc7;&#x521d;&#x59cb;&#x8fde;&#x63a5;&#x70b9;&#x5f00;&#x59cb;&#x7684;&#x7a0b;&#x5e8f;&#x63a7;&#x5236;&#x6d41;&#x7a0b;&#x5185;&#x7684;&#x6240;&#x6709;&#x8fde;&#x63a5;&#x70b9;" ID="ID_257202073" CREATED="1623647407546" MODIFIED="1623649123875"><richcontent TYPE="NOTE">
 
@@ -786,7 +860,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6355;&#x83b7;&#x901a;&#x8fc7;&#x521d;&#x59cb;&#x8fde;&#x63a5;&#x70b9;&#x5f00;&#x59cb;&#x7684;&#x7a0b;&#x5e8f;&#x63a7;&#x5236;&#x6d41;&#x7a0b;&#x5185;&#x7684;&#x6240;&#x6709;&#x8fde;&#x63a5;&#x70b9;,&#x4f46;&#x4e0d;&#x5305;&#x62ec;&#x521d;&#x59cb;&#x8fde;&#x63a5;&#x70b9;" ID="ID_1557428320" CREATED="1623647437721" MODIFIED="1623650056333"><richcontent TYPE="NOTE">
@@ -813,7 +886,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -835,7 +907,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -861,7 +932,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x533f;&#x540d;&#x5207;&#x70b9;" ID="ID_918483014" CREATED="1623670967516" MODIFIED="1623671009496"><richcontent TYPE="NOTE">
@@ -876,7 +946,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x91cd;&#x7528;&#x5207;&#x70b9;" ID="ID_1524966738" CREATED="1623671024155" MODIFIED="1623671079379"><richcontent TYPE="NOTE">
@@ -891,7 +960,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -917,7 +985,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53ef;&#x8bbf;&#x95ee;&#x8fde;&#x63a5;&#x70b9;&#x73af;&#x5883;" ID="ID_1401371963" CREATED="1623671422549" MODIFIED="1623671457707"><richcontent TYPE="NOTE">
@@ -938,7 +1005,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x901a;&#x77e5;&#x7684;&#x4e94;&#x79cd;&#x7c7b;&#x578b;" ID="ID_1742393468" CREATED="1623671549043" MODIFIED="1623672034991"><richcontent TYPE="NOTE">
@@ -965,7 +1031,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x901a;&#x77e5;&#x6267;&#x884c;&#x4f18;&#x5148;&#x7ea7;" ID="ID_1628968422" CREATED="1623672035246" MODIFIED="1623672041068">
@@ -988,7 +1053,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

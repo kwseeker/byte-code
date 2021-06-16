@@ -12,6 +12,7 @@
     <module>asm-basic</module>
       <module>aspectj</module>
       <module>asm-monitor</module>
+      <module>javassist-basic</module>
   </modules>
 
   <name>byte-code</name>
