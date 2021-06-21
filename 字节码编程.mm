@@ -132,6 +132,10 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x7ec4;&#x4ef6;&#x5316;&#x98ce;&#x63a7;&#x6a21;&#x578b;&#x5305;" ID="ID_1160023960" CREATED="1624165572158" MODIFIED="1624165589524"/>
+<node TEXT="&#x5f00;&#x53d1;&#x8c03;&#x8bd5;&#x7ec4;&#x4ef6;" ID="ID_572441052" CREATED="1624165598998" MODIFIED="1624165611185">
+<node TEXT="mock" ID="ID_578702988" CREATED="1624193172669" MODIFIED="1624193191124"/>
+</node>
 </node>
 <node TEXT="&#x67e5;&#x770b;&#x751f;&#x6210;&#x7684;&#x52a8;&#x6001;&#x4ee3;&#x7406;&#x7c7b;&#x589e;&#x5f3a;&#x7c7b;&#x6e90;&#x7801;" ID="ID_1937720802" CREATED="1622703879604" MODIFIED="1622704281840"><richcontent TYPE="NOTE">
 
@@ -147,15 +151,63 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x6df7;&#x6c8c;&#x5de5;&#x7a0b;" ID="ID_128279620" CREATED="1623674863607" MODIFIED="1623674871847"/>
-<node TEXT="&#x53cd;&#x5411;&#x5de5;&#x7a0b;" ID="ID_943169794" CREATED="1623674872173" MODIFIED="1623674877183"/>
+<node TEXT="&#x6df7;&#x6c8c;&#x5de5;&#x7a0b;" ID="ID_128279620" CREATED="1623674863607" MODIFIED="1624164728845"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20851;&#20110;&#28151;&#27788;&#24037;&#31243;&#21442;&#32771;: &#12298;&#28151;&#27788;&#24037;&#31243;&#65306;Netflix&#31995;&#32479;&#31283;&#23450;&#24615;&#20043;&#36947;&#12299; 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31616;&#21333;&#35828;&#23601;&#26159;&#22312;&#27491;&#24335;&#29615;&#22659;,&#26102;&#24120;&#27169;&#25311;&#24341;&#21457;&#20043;&#21069;&#39057;&#21457;&#30340;&#20107;&#25925;&#25110;&#28508;&#22312;&#30340;&#28431;&#27934;,&#20197;&#39564;&#35777;&#20462;&#25913;&#20043;&#21518;&#30340;&#31995;&#32479;&#38754;&#23545;&#36825;&#31181;&#38382;&#39064;&#30340;&#31283;&#23450;&#24615;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x53cd;&#x5411;&#x5de5;&#x7a0b;" ID="ID_943169794" CREATED="1623674872173" MODIFIED="1624165290874"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36870;&#21521;&#24037;&#31243;&#65288;Software Reverse Engineering&#65289;&#21448;&#31216;&#36719;&#20214;&#21453;&#21521;&#24037;&#31243;&#65292;
+    </p>
+    <p>
+      &#26159;&#25351;&#20174;&#21487;&#36816;&#34892;&#30340;&#31243;&#24207;&#31995;&#32479;&#20986;&#21457;&#65292;&#36816;&#29992;&#35299;&#23494;&#12289;&#21453;&#27719;&#32534;&#12289;&#31995;&#32479;&#20998;&#26512;&#12289;&#31243;&#24207;&#29702;&#35299;&#31561;&#22810;&#31181;&#35745;&#31639;&#26426;&#25216;&#26415;, &#23545;&#36719;&#20214;&#30340;&#32467;&#26500;&#12289;&#27969;&#31243;&#12289;&#31639;&#27861;&#12289;&#20195;&#30721;&#31561;&#36827;&#34892;&#36870;&#21521;&#25286;&#35299;&#21644;&#20998;&#26512;&#65292;&#25512;&#23548;&#20986;&#36719;&#20214;&#20135;&#21697;&#30340;
+    </p>
+    <p>
+      &#28304;&#20195;&#30721;&#12289;&#35774;&#35745;&#21407;&#29702;&#12289;&#32467;&#26500;&#12289;&#31639;&#27861;&#12289;&#22788;&#29702;&#36807;&#31243;&#12289;&#36816;&#34892;&#26041;&#27861;&#21450;&#30456;&#20851;&#25991;&#26723;&#31561;&#12290;
+    </p>
+    <p>
+      &#36890;&#24120;&#65292;&#20154;&#20204;&#25226;&#23545;&#36719;&#20214;&#36827;&#34892;&#21453;&#21521;&#20998;&#26512;&#30340;&#25972;&#20010;&#36807;&#31243;&#32479;&#31216;&#20026;&#36719;&#20214;&#36870;&#21521;&#24037;&#31243;&#65292;&#25226;&#22312;&#36825;&#20010;&#36807;&#31243;&#20013;&#25152;&#37319;&#29992;&#30340;&#25216;&#26415;&#37117;&#32479;&#31216;&#20026;&#36719;&#20214;&#36870;&#21521;&#24037;&#31243;&#25216;&#26415;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="&#x8f6f;&#x4ef6;&#x7834;&#x89e3;" ID="ID_292439335" CREATED="1623674882783" MODIFIED="1623674889769"/>
+<node TEXT="&#x8f6f;&#x4ef6;&#x76d1;&#x63a7;" ID="ID_388409910" CREATED="1624165412938" MODIFIED="1624165417740">
 <node TEXT="&#x63a2;&#x9488;&#x6280;&#x672f;" ID="ID_198389695" CREATED="1622715815557" MODIFIED="1622715822331">
 <node TEXT="Dapper" ID="ID_1973068179" CREATED="1622715824254" MODIFIED="1622715827210"/>
 <node TEXT="Zipkin" ID="ID_1503008270" CREATED="1622715827862" MODIFIED="1622715833995"/>
 </node>
 <node TEXT="Arthas" ID="ID_1343634815" CREATED="1623677913512" MODIFIED="1623677921447">
 <node TEXT="Arthas-&gt;javaagent-&gt;asm" ID="ID_368788301" CREATED="1623677926347" MODIFIED="1623677950521"/>
+</node>
+</node>
+<node TEXT="&#x8f6f;&#x4ef6;&#x90e8;&#x7f72;" ID="ID_1814786113" CREATED="1624165437019" MODIFIED="1624165440730">
+<node TEXT="&#x70ed;&#x90e8;&#x7f72;" ID="ID_649437170" CREATED="1624165442400" MODIFIED="1624165450023"/>
 </node>
 </node>
 <node TEXT="1.3 &#x539f;&#x7406;" ID="ID_128139043" CREATED="1622518814928" MODIFIED="1622518838382"/>
@@ -214,10 +266,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5165;&#x95e8;" ID="ID_1823207950" CREATED="1622716888782" MODIFIED="1622717031837" STYLE="bubble">
-<node TEXT="&#x4e3b;&#x8981;Class" ID="ID_1389619024" CREATED="1622717714784" MODIFIED="1622717728881" STYLE="bubble">
+<node TEXT="&#x4e3b;&#x8981;Class" ID="ID_1389619024" CREATED="1622717714784" MODIFIED="1624199634641" STYLE="fork">
 <node TEXT="ClassVisitor" ID="ID_1563679899" CREATED="1622717730008" MODIFIED="1622717738253">
 <node TEXT="AnnotationVisitor" ID="ID_1480981868" CREATED="1622717769888" MODIFIED="1622864998288"/>
 <node TEXT="FieldVisitor" ID="ID_550178601" CREATED="1622717778815" MODIFIED="1622717785173"/>
@@ -265,19 +316,19 @@
 </node>
 <node TEXT="AdviceAdapter" ID="ID_654037453" CREATED="1623675857908" MODIFIED="1623675862808"/>
 </node>
-<node TEXT="&#x6838;&#x5fc3;API" ID="ID_1072706887" CREATED="1622717010077" MODIFIED="1622717030021" STYLE="bubble">
+<node TEXT="&#x6838;&#x5fc3;API" ID="ID_1072706887" CREATED="1622717010077" MODIFIED="1624199634640" STYLE="fork">
 <node TEXT="&#x7c7b;" ID="ID_1493592141" CREATED="1622717036852" MODIFIED="1622717042266"/>
 <node TEXT="&#x65b9;&#x6cd5;" ID="ID_45966189" CREATED="1622717042589" MODIFIED="1622717047474"/>
 <node TEXT="&#x5143;&#x6570;&#x636e;" ID="ID_1795790163" CREATED="1622717047901" MODIFIED="1622717201723"/>
 <node TEXT="&#x540e;&#x5411;&#x517c;&#x5bb9;" ID="ID_1943665414" CREATED="1622717201931" MODIFIED="1622717213833"/>
 </node>
-<node TEXT="&#x6811;API" ID="ID_389699291" CREATED="1622717018749" MODIFIED="1622717030517" STYLE="bubble">
+<node TEXT="&#x6811;API" ID="ID_389699291" CREATED="1622717018749" MODIFIED="1624199634640" STYLE="fork">
 <node TEXT="&#x7c7b;" ID="ID_653102217" CREATED="1622717036852" MODIFIED="1622717042266"/>
 <node TEXT="&#x65b9;&#x6cd5;" ID="ID_971575272" CREATED="1622717042589" MODIFIED="1622717047474"/>
 <node TEXT="&#x5143;&#x6570;&#x636e;" ID="ID_1079154200" CREATED="1622717047901" MODIFIED="1622717201723"/>
 <node TEXT="&#x540e;&#x5411;&#x517c;&#x5bb9;" ID="ID_1969000427" CREATED="1622717201931" MODIFIED="1622717213833"/>
 </node>
-<node TEXT="&#x5e94;&#x7528;&#x5230;&#x7684;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;" ID="ID_56253778" CREATED="1622720971983" MODIFIED="1622721018392" STYLE="bubble">
+<node TEXT="&#x5e94;&#x7528;&#x5230;&#x7684;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;" ID="ID_56253778" CREATED="1622720971983" MODIFIED="1624199634637" STYLE="fork">
 <node TEXT="&#x89c2;&#x5bdf;&#x8005;&#x6a21;&#x5f0f;" ID="ID_714416300" CREATED="1622720979300" MODIFIED="1622720986876"/>
 <node TEXT="&#x88c5;&#x9970;&#x5668;&#x6a21;&#x5f0f;" ID="ID_128574732" CREATED="1622720987038" MODIFIED="1622720996947"/>
 </node>
@@ -363,7 +414,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1623860632344" STYLE="bubble"><richcontent TYPE="DETAILS">
+<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1624197942685" LINK="http://www.javassist.org/tutorial/tutorial.html" STYLE="bubble"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -378,8 +429,84 @@
     </p>
   </body>
 </html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/jboss-javassist/javassist">https://github.com/jboss-javassist/javassist</a> 
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="&#x5165;&#x95e8;" ID="ID_1205524433" CREATED="1624198807314" MODIFIED="1624199518508" STYLE="bubble">
+<node TEXT="&#x6838;&#x5fc3;&#x7c7b;" ID="ID_698988482" CREATED="1624199521193" MODIFIED="1624199644716" STYLE="fork">
+<node TEXT="ClassPool" ID="ID_153665996" CREATED="1624198827233" MODIFIED="1624198832505"/>
+<node TEXT="CtClass" ID="ID_101878006" CREATED="1624198835844" MODIFIED="1624199044052"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#37324;&#38754;&#30340;&#26041;&#27861;&#31867;&#20284;Java&#30340;Class&#30340;&#26041;&#27861;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="CtMethod" ID="ID_284981848" CREATED="1624198839683" MODIFIED="1624198845047">
+<node TEXT="MethodInfo" ID="ID_696379299" CREATED="1624199051563" MODIFIED="1624199062427">
+<node TEXT="CodeAttribute" ID="ID_735274403" CREATED="1624199695759" MODIFIED="1624199696551"/>
+</node>
+</node>
+<node TEXT="CtField" ID="ID_879389419" CREATED="1624198845424" MODIFIED="1624198859299"/>
+<node TEXT="..." ID="ID_1796671274" CREATED="1624199865997" MODIFIED="1624199867076"/>
+</node>
+</node>
+<node TEXT="&#x5e94;&#x7528;" ID="ID_1206489922" CREATED="1624199499797" MODIFIED="1624199513299" STYLE="bubble">
+<node TEXT="&#x5b57;&#x8282;&#x7801;&#x63d2;&#x6869;&#x5b9e;&#x73b0;&#x76d1;&#x63a7;&#x4ee5;&#x53ca;&#x5f02;&#x5e38;&#x5904;&#x7406;" ID="ID_358836621" CREATED="1624199556161" MODIFIED="1624200285898"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000"><b>&#20351;&#29992;javassist&#20026;&#26041;&#27861;&#28155;&#21152;&#30417;&#25511;&#20197;&#21450;&#24322;&#24120;&#22788;&#29702; </b></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //&#25554;&#26729;&#21069;
+    </p>
+    <p>
+      <font color="#cc7832">public class </font>ApiTest {<br/>&#160;&#160;&#160;&#160; <font color="#cc7832">public </font>Integer <font color="#ffc66d">strToInt</font>(String str01<font color="#cc7832">, </font>String str02) {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc7832">return </font>Integer.<i>parseInt</i>(str01)<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160; </font>}<br/>}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //&#25554;&#26729;&#21518;
+    </p>
+    <p>
+      <font color="#cc7832">public class </font>ApiTest {<br/>&#160;&#160;&#160;&#160; <font color="#cc7832">public </font><font color="#ffc66d">ApiTest</font>() {<br/>&#160;&#160;&#160;&#160;}<br/><br/>&#160;&#160;&#160;&#160; <font color="#cc7832">public </font>Integer <font color="#ffc66d">strToInt</font>(String str01<font color="#cc7832">, </font>String str02) {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc7832">try </font>{<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#cc7832">long </font>startNanos = System.<i>nanoTime</i>()<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>Object[] parameterValues = <font color="#cc7832">new </font>Object[]{str01<font color="#cc7832">, </font>str02}<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>Integer var7 = Integer.<i>parseInt</i>(str01)<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>Monitor.point(<font color="#6897bb">0</font><font color="#cc7832">, </font>startNanos<font color="#cc7832">, </font>parameterValues<font color="#cc7832">, </font>var7)<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return </font>var7<font color="#cc7832">;<br/>&#160; &#160;&#160;&#160;&#160;&#160;&#160; </font>} <font color="#cc7832">catch </font>(Exception var9) {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Monitor.point(<font color="#6897bb">0</font><font color="#cc7832">, </font>var9)<font color="#cc7832">;<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;throw </font>var9<font color="#cc7832">;<br/>&#160; &#160;&#160;&#160;&#160;&#160;&#160; </font>}<br/>&#160;&#160;&#160;&#160;}<br/>}
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4e3b;&#x8981;Class" ID="ID_979469840" CREATED="1624199656209" MODIFIED="1624199665946"/>
+</node>
+</node>
 </node>
 <node TEXT="Byte Buddy" ID="ID_1416223891" CREATED="1622519133634" MODIFIED="1623858126825" STYLE="bubble"><richcontent TYPE="DETAILS">
 
@@ -393,7 +520,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -428,7 +554,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;" ID="ID_1167762837" CREATED="1623677079471" MODIFIED="1623677083907">
@@ -446,7 +571,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -468,7 +592,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="4) &#x6253;&#x5305;(jar)&#x5e76;&#x5728; jvm &#x542f;&#x52a8;&#x65f6;&#x589e;&#x52a0;-javaagent:xxx.jar" ID="ID_1924482976" CREATED="1623677611245" MODIFIED="1623677652490"/>
@@ -1368,6 +1491,32 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node TEXT="&#x5176;&#x4ed6;" ID="ID_31727093" CREATED="1624165318306" MODIFIED="1624165321751">
+<node TEXT="XCode ORM" ID="ID_1255308053" CREATED="1624164965806" MODIFIED="1624165341972"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20010;&#21482;&#26159;&#20010;&#25299;&#23637;. &#21644;&#21453;&#21521;&#24037;&#31243;&#27809;&#20160;&#20040;&#20851;&#31995;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#33324;&#37117;&#26159;&#20808;&#24314;&#34920;&#20877;&#20889;&#36923;&#36753;, XCode&#21487;&#20197;&#20808;&#20889;&#36923;&#36753;&#25191;&#34892;&#26102;&#24314;&#34920;.
+    </p>
+    <p>
+      &#22312;&#19994;&#21153;&#37197;&#32622;&#31995;&#32479;&#20013;&#21487;&#33021;&#20250;&#26377;&#25152;&#20316;&#20026;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
