@@ -28,7 +28,7 @@ public class RunTimeHotSwapTest {
      * 模拟这个是业务进程
      */
     @Test
-    public void testRunTimeHotSwap() throws InterruptedException {
+    public void testRunTimeHotSwap() throws InterruptedException, IOException, IllegalConnectorArgumentsException, NotFoundException, CannotCompileException {
         System.out.println(ManagementFactory.getRuntimeMXBean().getName());
 
         Thread thread = new Thread(() -> {
@@ -44,19 +44,19 @@ public class RunTimeHotSwapTest {
         thread.start();
 
         //这个是成功的
-        //Thread.sleep(1000);
-        //
-        //HotSwapper hotSwapper = new HotSwapper(8000);
-        //
-        //ClassPool pool = ClassPool.getDefault();
-        //CtClass ctClass = pool.get(PrimaryClass.class.getName());
-        //if (SERVER_ENV == ServerEnv.TEST) {
-        //    CtMethod getSystemTime = ctClass.getDeclaredMethod("getSystemTime");
-        //    getSystemTime.setBody("{return 1624191638156L;}");
-        //}
-        //hotSwapper.reload(PrimaryClass.class.getName(), ctClass.toBytecode());
-        //
-        //System.out.println("HotSwapper reload done !");
+        Thread.sleep(1000);
+
+        HotSwapper hotSwapper = new HotSwapper(18000);
+
+        ClassPool pool = ClassPool.getDefault();
+        CtClass ctClass = pool.get(PrimaryClass.class.getName());
+        if (SERVER_ENV == ServerEnv.TEST) {
+            CtMethod getSystemTime = ctClass.getDeclaredMethod("getSystemTime");
+            getSystemTime.setBody("{return 1624191638156L;}");
+        }
+        hotSwapper.reload(PrimaryClass.class.getName(), ctClass.toBytecode());
+
+        System.out.println("HotSwapper reload done !");
         thread.join(10000);
     }
 
