@@ -2,7 +2,9 @@
 
 内容源于：[aspectj-doc](https://www.eclipse.org/aspectj/doc/released/progguide/index.html)
 
-书籍都比较老旧，看官方文档靠谱点。
+[AspectJ5 Changes](https://www.eclipse.org/aspectj/doc/released/adk15notebook/index.html) [支持注解开发，第9章,这样就不需要额外写aj文件了]
+
+书籍都比较老旧，看官方文档靠谱点（官方文档也有些老旧）。但是AspectJ一直有更新，当前最新的是Aspect9(1.9.6) 于2020.07.22发布。
 
 ## AspectJ简介
 
