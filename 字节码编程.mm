@@ -81,7 +81,7 @@
 </richcontent>
 </node>
 <node TEXT="1.2 &#x4f7f;&#x7528;&#x573a;&#x666f;" ID="ID_1219013940" CREATED="1622518785902" MODIFIED="1622518828407">
-<node TEXT="&#x975e;&#x4fb5;&#x5165;&#x5f0f;&#x8bbe;&#x8ba1;(&#x5982;&#xff1a;&#x94fe;&#x8def;&#x8ffd;&#x8e2a;&#x7cfb;&#x7edf;)" ID="ID_229280557" CREATED="1622519275563" MODIFIED="1622715893520"><richcontent TYPE="NOTE">
+<node TEXT="&#x975e;&#x4fb5;&#x5165;&#x5f0f;&#x8bbe;&#x8ba1;(&#x5982;&#xff1a;&#x94fe;&#x8def;&#x8ffd;&#x8e2a;&#x7cfb;&#x7edf;)" ID="ID_229280557" CREATED="1622519275563" MODIFIED="1624765770046"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -102,6 +102,19 @@
     </p>
     <p>
       AOP&#x5e76;&#x4e0d;&#x662f;&#x5b8c;&#x5168;&#x975e;&#x4fb5;&#x5165;&#xff0c;&#x53ea;&#x662f;&#x4fb5;&#x5165;&#x7684;&#x5c11;&#x3002;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#22914;: AOP, &#20195;&#29702;</font>
     </p>
   </body>
 </html>
@@ -194,8 +207,21 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x8f6f;&#x4ef6;&#x8c03;&#x8bd5;&#x5668;" ID="ID_1855848522" CREATED="1624765787869" MODIFIED="1624765816435"/>
 <node TEXT="&#x8f6f;&#x4ef6;&#x7834;&#x89e3;" ID="ID_292439335" CREATED="1623674882783" MODIFIED="1623674889769"/>
-<node TEXT="&#x8f6f;&#x4ef6;&#x76d1;&#x63a7;" ID="ID_388409910" CREATED="1624165412938" MODIFIED="1624165417740">
+<node TEXT="&#x8f6f;&#x4ef6;&#x76d1;&#x63a7;" ID="ID_388409910" CREATED="1624165412938" MODIFIED="1624765729793"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21253;&#25324;&#24615;&#33021;&#20998;&#26512;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="&#x63a2;&#x9488;&#x6280;&#x672f;" ID="ID_198389695" CREATED="1622715815557" MODIFIED="1622715822331">
 <node TEXT="Dapper" ID="ID_1973068179" CREATED="1622715824254" MODIFIED="1622715827210"/>
 <node TEXT="Zipkin" ID="ID_1503008270" CREATED="1622715827862" MODIFIED="1622715833995"/>
@@ -204,8 +230,8 @@
 <node TEXT="Arthas-&gt;javaagent-&gt;asm" ID="ID_368788301" CREATED="1623677926347" MODIFIED="1623677950521"/>
 </node>
 </node>
-<node TEXT="&#x8f6f;&#x4ef6;&#x90e8;&#x7f72;" ID="ID_1814786113" CREATED="1624165437019" MODIFIED="1624165440730">
-<node TEXT="&#x70ed;&#x90e8;&#x7f72;" ID="ID_649437170" CREATED="1624165442400" MODIFIED="1624165450023"/>
+<node TEXT="&#x8f6f;&#x4ef6;&#x90e8;&#x7f72;" ID="ID_1814786113" CREATED="1624165437019" MODIFIED="1624765845547">
+<node TEXT="&#x70ed;&#x66f4;&#x65b0;" ID="ID_649437170" CREATED="1624165442400" MODIFIED="1624765854523"/>
 </node>
 </node>
 <node TEXT="1.3 &#x539f;&#x7406;" ID="ID_128139043" CREATED="1622518814928" MODIFIED="1622518838382"/>
@@ -412,7 +438,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1624197942685" LINK="http://www.javassist.org/tutorial/tutorial.html" STYLE="bubble"><richcontent TYPE="DETAILS">
+<node TEXT="Javaassist" ID="ID_64805459" CREATED="1622519124371" MODIFIED="1624766497296" LINK="http://www.javassist.org/tutorial/tutorial.html" STYLE="bubble"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -436,7 +462,7 @@
   </head>
   <body>
     <p>
-      <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/jboss-javassist/javassist">https://github.com/jboss-javassist/javassist</a> 
+      <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/jboss-javassist/javassist">https://github.com/jboss-javassist/javassist </a>
     </p>
   </body>
 </html>
@@ -477,7 +503,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="AccessFlag" ID="ID_371586405" CREATED="1624707952145" MODIFIED="1624708000353"><richcontent TYPE="NOTE">
 
@@ -548,7 +573,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="CodeAttribute" ID="ID_735274403" CREATED="1624199695759" MODIFIED="1624199696551">
@@ -627,9 +651,7 @@
 <node TEXT="CtMethod::addCatch" ID="ID_1176186632" CREATED="1624532412100" MODIFIED="1624532528461"/>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="Byte Buddy" ID="ID_1416223891" CREATED="1622519133634" MODIFIED="1623858126825" STYLE="bubble"><richcontent TYPE="DETAILS">
+<node TEXT="&#x6027;&#x80fd;&#x76d1;&#x63a7;Demo" ID="ID_1450933980" CREATED="1624766266088" MODIFIED="1624766377966" LINK="https://ivanyu.me/blog/2017/11/04/java-agents-javassist-and-byte-buddy/"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -637,7 +659,26 @@
   </head>
   <body>
     <p>
-      <font color="#0000c0">&#22522;&#20110;ASM,&#26131;&#29992;</font>
+      &#20026;&#34987;@CollectMetrics&#27880;&#35299;&#27880;&#37322;&#30340;&#26041;&#27861;&#28155;&#21152;&#24615;&#33021;&#30417;&#25511;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Byte Buddy" ID="ID_1416223891" CREATED="1622519133634" MODIFIED="1624766761382" LINK="https://bytebuddy.net/#/" STYLE="bubble"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#22522;&#20110;ASM,&#26131;&#29992; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#23553;&#35013;&#20102;Instrumentation&#31561;&#25805;&#20316;</font>
     </p>
   </body>
 </html>
@@ -955,7 +996,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="5) &#x6253;&#x5305;(jar)&#x5e76;&#x5728; jvm &#x542f;&#x52a8;&#x65f6;&#x589e;&#x52a0;-javaagent:xxx.jar" ID="ID_1924482976" CREATED="1623677611245" MODIFIED="1624702001858"/>
@@ -1024,6 +1064,9 @@
 <node TEXT="Dexposed" ID="ID_1237795937" CREATED="1624536266804" MODIFIED="1624536277134" STYLE="bubble"/>
 <node TEXT="Arthas&#x7684;&#x70ed;&#x66f4;&#x65b0;" ID="ID_629206996" CREATED="1624536410083" MODIFIED="1624536428868" STYLE="bubble"/>
 </node>
+<node TEXT="&#x52a8;&#x6001;&#x4ee3;&#x7406;&#x539f;&#x7406;" ID="ID_561655563" CREATED="1629431422537" MODIFIED="1629431432001" STYLE="bubble">
+<node TEXT="1 &#x52a8;&#x6001;&#x751f;&#x6210;&#x7684;&#x4ee3;&#x7406;&#x7c7b;&#x7c7b;&#x52a0;&#x8f7d;&#x6d41;&#x7a0b;" ID="ID_1728602490" CREATED="1629431434054" MODIFIED="1629431464811"/>
+</node>
 <node TEXT="&#x9644;&#x5f55;" ID="ID_284936427" CREATED="1624594627271" MODIFIED="1624594632366" STYLE="bubble">
 <node TEXT="agent jar manifest&#x5c5e;&#x6027;" ID="ID_1156066282" CREATED="1624594633334" MODIFIED="1624594665945"><richcontent TYPE="NOTE">
 
@@ -1057,7 +1100,7 @@
 </node>
 </node>
 <node TEXT="2.3 &#x5b57;&#x8282;&#x7801;&#x7f16;&#x7a0b;&#xa;&#x5e94;&#x7528;" ID="ID_467831461" CREATED="1622960987451" MODIFIED="1623676252433" STYLE="bubble">
-<node TEXT="AspectJ" ID="ID_18268467" CREATED="1622726103052" MODIFIED="1622961061217" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="AspectJ" FOLDED="true" ID="ID_18268467" CREATED="1622726103052" MODIFIED="1622961061217" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1622,7 +1665,7 @@
 <node TEXT="&#x4f7f;&#x7528;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#xa;&#x5b9a;&#x4e49;&#x65b9;&#x9762;" ID="ID_598159834" CREATED="1623484901953" MODIFIED="1623673298701"/>
 </node>
 <node TEXT="Spring AOP" ID="ID_1781623934" CREATED="1622960968327" MODIFIED="1622961061984" STYLE="bubble"/>
-<node TEXT="&#x9644;&#xff1a;AOP&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_1729925695" CREATED="1623479126100" MODIFIED="1623485341333" STYLE="bubble">
+<node TEXT="&#x9644;&#xff1a;AOP&#x5e94;&#x7528;&#x573a;&#x666f;" FOLDED="true" ID="ID_1729925695" CREATED="1623479126100" MODIFIED="1623485341333" STYLE="bubble">
 <node TEXT="&#x589e;&#x5f3a;&#x7c7b;&#x548c;&#x7f16;&#x8bd1;&#x5668;" ID="ID_1595432284" CREATED="1623485033414" MODIFIED="1623485039729">
 <node TEXT="&#x65b9;&#x6cd5;&#x53c2;&#x6570;&#x6821;&#x9a8c;" ID="ID_1288655349" CREATED="1623485061574" MODIFIED="1623485168380"/>
 <node TEXT="&#x5355;&#x5143;&#x6d4b;&#x8bd5;&#x6dfb;&#x52a0;&#x6a21;&#x62df;&#x7ec4;&#x4ef6;" ID="ID_533190874" CREATED="1623485275457" MODIFIED="1623485286245"/>

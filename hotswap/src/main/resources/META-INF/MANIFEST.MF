@@ -1,3 +1,5 @@
 Manifest-Version: 1.0
 Premain-Class: top.kwseeker.bytecode.hotswap.InstrumentPremain
+Agent-Class: top.kwseeker.bytecode.hotswap.AttachApiAgentmain
 Can-Redefine-Classes: true
+Can-Retransform-Classes: true
