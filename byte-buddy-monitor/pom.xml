@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>top.kwseeker</groupId>
+        <artifactId>byte-code</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>top.kwseeker.bytecode</groupId>
+    <artifactId>byte-buddy-monitor</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>monitor-agent</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-boot.version>2.7.6</spring-boot.version>
+        <httpclient.version>4.5.9</httpclient.version>
+        <jedis.version>4.2.3</jedis.version>
+        <bytebuddy.version>1.12.19</bytebuddy.version>
+    </properties>
+</project>
