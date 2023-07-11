@@ -3,12 +3,14 @@ package top.kwseeker.bytecode.monitor.context;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class ApplicationContextHolder implements ApplicationContextAware {
 
     private static ApplicationContext _context;
@@ -55,6 +57,7 @@ public class ApplicationContextHolder implements ApplicationContextAware {
         return (T) _context.getBean(names[0]);
     }
 
+    @SuppressWarnings("unchecked")
     public static <T> List<T> getBeans(Class<T> clazz) {
         List<T> ret = new ArrayList<>();
         if (_context == null) {

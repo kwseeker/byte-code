@@ -9,13 +9,13 @@
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <modules>
+    <module>agent-main</module>
     <module>asm-basic</module>
     <module>aspectj</module>
-    <module>asm-monitor</module>
-    <module>javassist-basic</module>
-    <module>hotswap</module>
     <module>byte-buddy-basic</module>
     <module>byte-buddy-monitor</module>
+    <module>hotswap</module>
+    <module>javassist-basic</module>
   </modules>
 
   <name>byte-code</name>

@@ -12,6 +12,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>top.kwseeker.bytecode</groupId>
+            <artifactId>monitor-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
             <version>${spring-boot.version}</version>
@@ -20,6 +26,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>${httpclient.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
@@ -65,7 +77,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <Premain-Class>top.kwseeker.bytecode.bytebuddy.official.secure.SecurityAgent</Premain-Class>
+                                        <Premain-Class>top.kwseeker.bytecode.monitor.MonitorAgent</Premain-Class>
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
