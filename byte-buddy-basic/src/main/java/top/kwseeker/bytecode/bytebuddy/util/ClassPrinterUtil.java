@@ -34,6 +34,11 @@ public class ClassPrinterUtil {
     public static void save(DynamicType dynamicType) {
         //DynamicType 中的 Type 应该是和 java.lang.reflect.Type 同一个意思，虽然两者没有什么继承关系
         String typeName = dynamicType.getTypeDescription().getName();
+        save(typeName, dynamicType.getBytes());
+    }
+
+    public static void save(String className, byte[] bytes) {
+        //DynamicType 中的 Type 应该是和 java.lang.reflect.Type 同一个意思，虽然两者没有什么继承关系
         String resourcePath = Objects.requireNonNull(ClassPrinterUtil.class.getResource(DELIMITER)).getPath();
         String targetDirPath = resourcePath + CLASS_GENERATED_DIR;
         //判断targetDir目录是否存在不存在则创建
@@ -42,10 +47,10 @@ public class ClassPrinterUtil {
             throw new RuntimeException("create dir failed, dir=" + targetDir.getPath());
         }
 
-        String classPath = targetDirPath + typeName + ".class";
+        String classPath = targetDirPath + className + ".class";
         try (FileOutputStream out = new FileOutputStream(classPath)) {
             System.out.println("generated class output path: " + classPath);
-            out.write(dynamicType.getBytes());
+            out.write(bytes);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -11,26 +11,27 @@ public class DebugListener implements AgentBuilder.Listener {
 
     @Override
     public void onDiscovery(String typeName, ClassLoader classLoader, JavaModule module, boolean loaded) {
-        System.out.println("onDiscovery ...");
+        //System.out.println("onDiscovery ...");
     }
 
     @Override
     public void onTransformation(TypeDescription typeDescription, ClassLoader classLoader, JavaModule module, boolean loaded, DynamicType dynamicType) {
-        System.out.println("onTransformation ...");
+        //System.out.println("onTransformation ...");
     }
 
     @Override
     public void onIgnored(TypeDescription typeDescription, ClassLoader classLoader, JavaModule module, boolean loaded) {
-        System.out.println("onIgnored ...");
+        //System.out.println("onIgnored ...");
     }
 
     @Override
     public void onError(String typeName, ClassLoader classLoader, JavaModule module, boolean loaded, Throwable throwable) {
-        System.out.println("onError ...");
+        System.err.println("onError:" + typeName);
+        throwable.printStackTrace();
     }
 
     @Override
     public void onComplete(String typeName, ClassLoader classLoader, JavaModule module, boolean loaded) {
-        System.out.println("onComplete ...");
+        //System.out.println("onComplete ...");
     }
 }

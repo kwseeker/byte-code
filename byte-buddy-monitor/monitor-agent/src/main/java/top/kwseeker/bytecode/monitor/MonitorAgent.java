@@ -24,7 +24,7 @@ public class MonitorAgent {
         //使用类文件定位器创建类型缓存池
         TypePool typePool = TypePool.Default.of(compound);
         new AgentBuilder.Default()
-                //.with(DebugListener.DEFAULT)
+                .with(DebugListener.DEFAULT)
                 //拦截HTTP请求
                 .type(ElementMatchers.named("org.apache.http.impl.client.CloseableHttpClient"))
                 .transform(new HttpClientTransformer(typePool.describe(httpInterceptor).resolve()))

@@ -2,22 +2,24 @@
 
 参考：
 
-+ 《Java Interceptor Development with ByteBuddy Fundamental》
++ **《Java Interceptor Development with ByteBuddy Fundamental》**（推荐）
+
+  官方文档讲的太随意了基本没什么帮助，还是参考这本书吧，但是书籍也只找到编排错乱的epub文档且没找到书籍案例源码。
 
 + 官方文档： [Byte Buddy Tutorial CN](https://bytebuddy.net/#/tutorial-cn)
-
-  > 这里并不打算把原文档抄一遍，只是记录下目录，展示Byte Buddy可以做哪些事。研究 ByteBuddy 的诱因是研究 skywalking-java agent 原理（使用的ByteBuddy实现字节码增强）。
 
 + 测试代码
 
   > 找了些测试项目，可以调试下，只不过除了官方仓库其他使用的版本都比较老，需要改下代码。
 
-  + https://github.com/dragontree101/byte-buddy-agent-example （基于agent实现对Web一些组件的简单监控）
-  + https://github.com/undergrowthlinear/byte-buddy-test （官方文档案例重现）
-  + https://github.com/ShehanPerera/javaagent-bytebuddy 
-  + https://github.com/raphw/byte-buddy （官方仓库）
+    + **https://github.com/dragontree101/byte-buddy-agent-example** （基于agent实现对Web一些组件的简单监控，推荐）
+    + https://github.com/undergrowthlinear/byte-buddy-test （官方文档案例重现）
+    + https://github.com/ShehanPerera/javaagent-bytebuddy （一些额外的使用DEMO, 对应博客[Java Agents with Byte-Buddy](https://medium.com/@shehan.a.perera/java-agents-with-byte-buddy-93185305c9e9)）
+    + https://github.com/raphw/byte-buddy （官方仓库）
 
- 
+
+
+> 下面是官方文档的一些内容。
 
 ## 准备
 
@@ -65,8 +67,6 @@
 
 + 创建Java Agent （很重要）
 
-  
-
 + 使用泛型
 
 
@@ -93,13 +93,14 @@
 
 ## 注解
 
-
++ 可以为类或成员添加注解
++ 通过`*AttributeAppender` 继承或丢弃变基或重定义方法的任何注解
 
 
 
 ## 自定义方法实现
 
-这部分讲怎么使用Byte Buddy API 定义一个方法，相对于前面委托的方式实现显得复杂很多。
+这部分讲怎么使用Byte Buddy API 自定义一个方法，相对于前面委托的方式实现显得复杂很多。
 
 
 
