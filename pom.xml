@@ -16,6 +16,7 @@
     <module>byte-buddy-monitor</module>
     <module>hotswap</module>
     <module>javassist-basic</module>
+    <module>byte-buddy-skywalking</module>
   </modules>
 
   <name>byte-code</name>

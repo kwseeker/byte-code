@@ -4,7 +4,7 @@
 
 + **《Java Interceptor Development with ByteBuddy Fundamental》**（推荐）
 
-  官方文档讲的太随意了基本没什么帮助，还是参考这本书吧，但是书籍也只找到编排错乱的epub文档且没找到书籍案例源码。
+  官方文档讲的太随意了基本没什么帮助（亮点是讲了点工作原理又没有讲清楚），还是参考这本书吧，但是书籍也只找到编排错乱的epub文档且没找到书籍案例源码。
 
 + 官方文档： [Byte Buddy Tutorial CN](https://bytebuddy.net/#/tutorial-cn)
 
@@ -17,19 +17,66 @@
     + https://github.com/ShehanPerera/javaagent-bytebuddy （一些额外的使用DEMO, 对应博客[Java Agents with Byte-Buddy](https://medium.com/@shehan.a.perera/java-agents-with-byte-buddy-93185305c9e9)）
     + https://github.com/raphw/byte-buddy （官方仓库）
 
+> 找到的资料帮助都不是很大，有空还是看源码和注释吧。
 
+
+
+## 个人对ByteBuddy工作原理的理解
+
+ByteBuddy实现对类的拓展有两种方式：
+
++ 在原类型基础上创建子类（原类型应该也已经加载），在子类中拓展功能，然后加载子类并使用
+
+  ```java
+  new ByteBuddy().subclass(Foo.class)
+  ```
+
++ 对已加载的原类型重新定义（修改原类的字节码，包名类名都不变）并变基（应该是类重载）
+
+  ```java
+  new ByteBuddy().redefine(Foo.class)
+  new ByteBuddy().rebase(Foo.class)
+  ```
+
+  重定义的三种策略:
+
+  + RedefinitionStrategy.DISABLED
+
+    禁用重新定义。使用这个策略进行类重定义时，如果发现已经有了相同的类字节码，将抛出 `IllegalStateException` 异常，且不进行类的重新定义。
+
+  + RedefinitionStrategy.REDEFINITION
+
+    启用重新定义。使用这个策略进行类重定义时，如果已经有了相同的类字节码，将使用一个新的类定义来替换它。而不是抛出 `IllegalStateException` 异常。
+
+  + RedefinitionStrategy.RETRANSFORMATION
+
+    启用重新定义。使用这个策略进行类重定义时，当存在相同的类字节码时，重新定义将被应用于该类。如果不存在相同的类字节码，则该类将被重新加载到 JVM 中。
+
+  SkyWalking中重定义实现：
+
+  ```java
+  AgentBuilder agentBuilder = new AgentBuilder.Default(byteBuddy).ignore(...);
+  agentBuilder.type(pluginFinder.buildMatch())        
+      .transform(new Transformer(pluginFinder))        
+      .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION) 
+      .with(new RedefinitionListener())
+      .with(new Listener())
+      .installOn(instrumentation);
+  ```
+
+  
+
+## 官方文档目录
 
 > 下面是官方文档的一些内容。
 
-## 准备
+### 准备
 
-### 与其他技术对比
+#### 与其他技术对比
 
-### 基准测试
+#### 基准测试
 
-
-
-## 类创建
+### 类创建
 
 + 继承类（创建类的子类）
 
@@ -69,9 +116,7 @@
 
 + 使用泛型
 
-
-
-## 字段和方法
+### 字段和方法
 
 + 方法的覆写
 
@@ -89,16 +134,13 @@
 
 + 访问字段（FieldAccessor）
 
-  
 
-## 注解
+### 注解
 
 + 可以为类或成员添加注解
 + 通过`*AttributeAppender` 继承或丢弃变基或重定义方法的任何注解
 
-
-
-## 自定义方法实现
+### 自定义方法实现
 
 这部分讲怎么使用Byte Buddy API 自定义一个方法，相对于前面委托的方式实现显得复杂很多。
 

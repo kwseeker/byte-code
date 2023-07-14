@@ -59,11 +59,11 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <manifestEntries>
-                                        <!--<Premain-Class>top.kwseeker.bytecode.bytebuddy.official.agent.BeanToStringAgent</Premain-Class>-->
+                                        <Premain-Class>top.kwseeker.bytecode.bytebuddy.official.agent.BeanToStringAgent</Premain-Class>
                                         <!--<Premain-Class>top.kwseeker.bytecode.bytebuddy.official.secure.SecurityAgent</Premain-Class>-->
                                         <!--<Premain-Class>top.kwseeker.bytecode.bytebuddy.other.ClassAgent</Premain-Class>-->
                                         <!--<Premain-Class>top.kwseeker.bytecode.bytebuddy.other.aroundmethod.AroundMethodAgent</Premain-Class>-->
-                                        <Premain-Class>top.kwseeker.bytecode.bytebuddy.other.getparams.ParamAgent</Premain-Class>
+                                        <!--<Premain-Class>top.kwseeker.bytecode.bytebuddy.other.getparams.ParamAgent</Premain-Class>-->
                                     </manifestEntries>
                                 </transformer>
                             </transformers>
