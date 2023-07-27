@@ -52,9 +52,8 @@ public abstract class AbstractClassEnhancePluginDefine {
 
         log.debug("prepare to enhance class {} by {}.", transformClassName, interceptorDefineClassName);
         WitnessFinder finder = WitnessFinder.INSTANCE;
-        /**
-         * find witness classes for enhance class
-         */
+
+        //
         String[] witnessClasses = witnessClasses();
         if (witnessClasses != null) {
             for (String witnessClass : witnessClasses) {
@@ -64,6 +63,7 @@ public abstract class AbstractClassEnhancePluginDefine {
                 }
             }
         }
+        //
         List<WitnessMethod> witnessMethods = witnessMethods();
         if (!CollectionUtil.isEmpty(witnessMethods)) {
             for (WitnessMethod witnessMethod : witnessMethods) {

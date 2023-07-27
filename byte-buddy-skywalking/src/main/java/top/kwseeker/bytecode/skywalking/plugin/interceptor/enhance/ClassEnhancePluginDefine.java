@@ -13,8 +13,13 @@ import net.bytebuddy.matcher.ElementMatchers;
 import top.kwseeker.bytecode.skywalking.plugin.AbstractClassEnhancePluginDefine;
 import top.kwseeker.bytecode.skywalking.plugin.EnhanceContext;
 import top.kwseeker.bytecode.skywalking.plugin.PluginException;
+import top.kwseeker.bytecode.skywalking.plugin.bootstrap.BootstrapInstrumentBoost;
 import top.kwseeker.bytecode.skywalking.plugin.interceptor.ConstructorInterceptPoint;
+import top.kwseeker.bytecode.skywalking.plugin.interceptor.EnhanceException;
 import top.kwseeker.bytecode.skywalking.plugin.interceptor.InstanceMethodsInterceptPoint;
+import top.kwseeker.bytecode.skywalking.plugin.interceptor.StaticMethodsInterceptPoint;
+import top.kwseeker.bytecode.skywalking.plugin.interceptor.v2.InstanceMethodsInterceptV2Point;
+import top.kwseeker.bytecode.skywalking.plugin.interceptor.v2.StaticMethodsInterceptV2Point;
 import top.kwseeker.bytecode.skywalking.util.StringUtil;
 
 import static net.bytebuddy.jar.asm.Opcodes.ACC_PRIVATE;
